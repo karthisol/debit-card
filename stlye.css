@@ -28,6 +28,9 @@ font-style: normal;
     border: 1px solid #2CCCD3;
     border-radius: 30px;
 }
+.estu{
+    
+}
 
 /*! nav-bar-end */
 
@@ -93,6 +96,40 @@ top: 11rem;
     left: 0rem;
     top: 0rem;
 }
+
+
+.rotate {
+    animation-name: rotate;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+  }
+  
+  @keyframes rotate {
+    0% {
+      transform: rotate(0);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+  
+  .move {
+    animation-name: move;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+  }
+  
+  @keyframes move {
+    0% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-50px);
+    }
+    100% {
+      transform: translateY(0);
+    }
+  }
 /* !section one end */
 
 .hp-div{
@@ -213,3 +250,93 @@ color: #FFFFFF;
     line-height: 29px;
     color: #FFFFFF;
 }
+
+.dooler{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 52px;
+    line-height: 68px;
+    
+    
+    color: #2CCCD3; 
+}
+
+.per{
+    
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 24px;
+
+
+color: #2CCCD3;
+}
+
+.read{
+    width: 162.12px;
+height: 47px;
+
+background: #2CCCD3;
+border: 1px solid #2CCCD3;
+border-radius: 30px;
+margin-top: 4rem;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 15px;
+}
+
+.pricing{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 44px;
+line-height: 53px;
+color: #FFFFFF;
+}
+.free{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 29px;
+color: #FFFFFF;
+}
+
+.want{
+    
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 19px;
+/* identical to box height, or 120% */
+
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #2CCCD3;
+
+}
+
+.requests{
+    box-sizing: border-box;
+    width: 269.69px;
+    height: 51px;
+    background: #2CCCD3;
+    border: 1px solid #2CCCD3;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 30px;
+    position: absolute;
+    left: 21rem;
+    top: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+  
