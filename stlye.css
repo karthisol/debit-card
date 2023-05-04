@@ -323,6 +323,15 @@ color: #2CCCD3;
 
 }
 
+.search-boxs{
+    width: 476.31px;
+    height: 51px;
+    background: #FFFFFF;
+    border-radius: 68px;
+    border: none;
+    padding-left: 20px;
+}
+
 .requests{
     box-sizing: border-box;
     width: 269.69px;
@@ -339,4 +348,234 @@ color: #2CCCD3;
     align-items: center;
     cursor: pointer;
 }
+  
+/* responcive */
+@media only screen and (min-width: 993px) and (max-width: 1200px) {
+
+    .img-box{
+        left: 5rem;
+        top: 11rem;
+    
+    }
+    .img-arrow{
+        left: 53rem;
+        top: 13rem;
+        width: 38px;
+    }
+    .img-crycle{
+        left: 56rem;
+    top: 7rem;
+       
+    }
+    .img-arrow-2{
+        left: 5rem;
+        top: 1rem;
+        width: 25px;
+    }
+    .img-box-2{
+        left: 49rem;
+    top: 3rem;
+    width: 25px;
+
+    }
+    .img-crycle-2{
+        left: 13rem;
+    top: 3rem;
+    width: 27px;
+
+    }
+    
+    
+.request {
+    left: 31rem;
+}
+
+.cross-row {
+    margin-left: -435px;
+    gap: 75px;
+}
+.computer{
+    width: 449px;
+    height: 304px;
+}
+
+.refers{
+    margin-left: 253px !important;
+}
+
+.want{
+    
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    
+    
+    color: #2CCCD3;
+    
+    }
+
+    .f-logo{
+        
+    width: 100px;
+    margin-bottom: 30px;
+
+    }
+   
+
+    .requests {
+        width: 190.69px;
+    }
+    .f-atm{
+        width: 175px;
+    }
+  }
+
+  @media only screen and (min-width: 769px) and (max-width: 992px) {
+    
+    .Early-access {
+        width: 70% !important;
+    }
+
+    .the-life {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 50px;
+        line-height: 76px;
+    }
+    .Making-student{
+        letter-spacing: 0px !important;
+    }
+
+    .search-boxs {
+        width: 438.31px;
+        height: 51px;
+        background: #FFFFFF;
+        border-radius: 68px;
+        border: none;
+        padding-left: 17px;
+    }
+
+    .request {
+        box-sizing: border-box;
+        width: 195.69px;
+        height: 51px;
+        background: #2CCCD3;
+        border: 1px solid #2CCCD3;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        border-radius: 30px;
+        position: absolute;
+        left: 22rem;
+        top: 0px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+    }
+
+.img-crycle-2 {
+    left: 2rem;
+    top: 7rem;
+    width: 24px;
+}
+.img-arrow-2 {
+    left: 8rem;
+    top: 1rem;
+    /* font-size: 51px; */
+    width: 20px;
+}
+
+.img-box-2 {
+    left: 39rem;
+    top: 4rem;
+    width: 25px;
+}
+.img-box {
+    left: 4rem;
+    top: 11rem;
+    width: 25px;
+}
+.img-arrow {
+    left: 41rem;
+    top: 15rem;
+    width: 25px;
+}
+.img-crycle {
+    left: 35rem;
+    top: 8rem;
+    width: 20px;
+}
+
+.visa-atm{
+    width: 69%;
+}
+
+.head-one {
+    background: radial-gradient(50% 50% at 50% 50%, rgba(44, 204, 211, 0.55) 0%, #000000 200%) , #000000;
+    height: 82rem;
+}
+.cross-bar {
+    height: 84px;
+    background: #2CCCD3;
+    transform: rotate(-5deg);
+    width: 900px;
+    position: absolute;
+    top: 0px;
+    
+}
+
+.f-logo{
+        
+    width: 80px;
+    margin-bottom: 30px;
+
+    }
+
+    .requests {
+        box-sizing: border-box;
+        width: 159.69px;
+        height: 42px;
+        background: #2CCCD3;
+        border: 1px solid #2CCCD3;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        border-radius: 30px;
+        position: absolute;
+        left: 17rem;
+        top: 0px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+    }
+
+   .f-atm {
+        width: 106px;
+    }
+
+    .f-logo {
+        width: 80px;
+        margin-bottom: 30px;
+    }
+
+    .search-boxs {
+        width: 321.31px;
+        height: 42px;
+        background: #FFFFFF;
+        border-radius: 68px;
+        border: none;
+        padding-left: 17px;
+    }
+
+  }
+
+  @media only screen and (min-width: 577px) and (max-width: 768px) {
+    /* CSS rules for tablet screens */
+  }
+  
+  @media only screen and (max-width: 576px) {
+    /* CSS rules for mobile screens */
+  }
+  
   
